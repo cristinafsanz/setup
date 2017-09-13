@@ -6,7 +6,7 @@
 
   * [Jorge Aznar](http://jorgeatgu.com/blog/mi-setup-de-trabajo/).
   
-  * [Enlaces Bash y Gulp TheAntiEvent](https://gist.github.com/jorgeatgu/6b1f9bdf8ae9b02ad69d2f7bd039aac9#automatización-con-gulp-y-bash).
+  * [Enlaces Bash y Gulp TheAntiEvent17](https://gist.github.com/jorgeatgu/6b1f9bdf8ae9b02ad69d2f7bd039aac9#automatización-con-gulp-y-bash).
   
 * Plugins VS Code: 
 
@@ -14,7 +14,7 @@
   
 * Configurar el terminal:
 
-  * [Carlos Azaustre, HyperTerm](https://youtu.be/2w-e_0W0Y78).
+  * [Carlos Azaustre (HyperTerm)](https://youtu.be/2w-e_0W0Y78).
 
 * Vim Sessions:
 
@@ -40,6 +40,6 @@
   
 * Inicio proyectos: 
 
-  * [Jorge Aznar, artículo](http://jorgeatgu.com/blog/iniciando-proyectos-con-base/).
+  * [Jorge Aznar (artículo)](http://jorgeatgu.com/blog/iniciando-proyectos-con-base/).
   
-  * [Jorge Aznar, GitHub](https://github.com/jorgeatgu/base).
+  * [Jorge Aznar (GitHub)](https://github.com/jorgeatgu/base).
