@@ -10,7 +10,7 @@
   
 * Plugins VS Code: 
 
-  [Carlos Azaustre](https://youtu.be/CeAvbVpBWR4).
+  * [Carlos Azaustre](https://youtu.be/CeAvbVpBWR4).
   
 * Configurar el terminal:
 
