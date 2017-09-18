@@ -1,6 +1,6 @@
 # Configuraciones para desarrollo Front-End
 
-Idea de repositorio a partir de la charla de Bash [Jorge Aznar](https://twitter.com/jorgeATGU) que dio en el [TheAntiEvent17](http://theantievent.org/).
+Idea de repositorio a partir de la charla de [Bash](https://gist.github.com/jorgeatgu/6b1f9bdf8ae9b02ad69d2f7bd039aac9#automatización-con-gulp-y-bash) de [Jorge Aznar](https://twitter.com/jorgeATGU) que dio en el [TheAntiEvent17](http://theantievent.org/).
 
 Estructura del README basada en el [setup](https://github.com/taniarascia/setup) de [Tania Rascia](https://twitter.com/taniarascia).
 
