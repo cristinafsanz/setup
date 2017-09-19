@@ -16,6 +16,10 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Automatización](#automatización)
 
+- [Herramientas organización](#herramientas-organización)
+
+- [Edición imágenes](#edición-imágenes)
+
 - [Enlaces interesantes](#enlaces-interesantes)
 
 ## Sistema Operativo
@@ -45,11 +49,37 @@ Cambios en Windows 10:
 ### **Uso:** [Visual Studio Code](http://code.visualstudio.com/)
 **Previamente usé:** [Atom](https://atom.io/) y [Brackets](http://brackets.io/).
 
+- Tiene terminal integrada.
+
 ### Extensiones
 
-- [Markdown](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview).
+- [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview).
 
-- [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4).
+- [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4):
+
+  - Panda Theme
+
+  - Babel ES6/ES7
+
+  - Editor Config for VS Code: regla de sintaxis en los proyectos. Útil también para un equipo y teniendo este plugin.
+
+  - ESLint
+
+  - File-icons para tener iconos para distintos tipos de ficheros.
+
+  - Mithril Emmet
+
+  - npm: instalar desde línea de comandos de VS Code.
+
+  - npm Intellisense
+
+  - Vetur si se trabaja con Vue. Con snippets de código y resaltados.
+
+  - TODO Highlight
+
+  - Prettier: para autoindentar
+
+  - BEM Expand: te completa el hijo al poner &.
 
 ## Terminal
 
@@ -60,6 +90,22 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
 ¿Qué cosas repetitivas puedo automatizar?
 
 - Arrancar front y back de un proyecto: [Script abrir varias ventanas Terminal mac](scripts/front_back.sh).
+
+## Herramientas organización
+
+### **Uso:** [Evernote](https://evernote.com/intl/es/), [Taiga Kanban](https://taiga.io/)
+
+- Evernote para crear notas con el setup de proyectos y organizar tareas de trabajo.
+
+- Taiga para proyectos personales: [Organización del aprendizaje](https://tree.taiga.io/project/cristinafsanz-improving-in-front-end-development/kanban), [organización de proyectos por áreas](https://tree.taiga.io/project/cristinafsanz-ilusionismo-con-github-pages/kanban).
+
+## Edición imágenes
+
+### **Uso:** [Gimp](https://www.gimp.org/), [Inkscape](https://inkscape.org/en/)
+
+- [Gimp for developers](http://cristinafsanz.github.io/projects/gimp-for-developers/).
+
+- [Make a logo with Inkscape](http://cristinafsanz.github.io/projects/logo-inkscape/).
 
 ## Enlaces interesantes
 
