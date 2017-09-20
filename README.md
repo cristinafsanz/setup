@@ -34,6 +34,8 @@ Cambios en Windows 10:
 
 - Instalar [Linux Bash Shell](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) en Windows 10. Creados los proyectos en /mnt/c/Projects (C:/Projects).
 
+  - Nota [@ethomson](https://twitter.com/ethomson/status/910167854321987586/photo/1): Pro-tip: you don't have to use bash in Windows Subsystem for Linux.  If you run `wsl`, it will use your login shell, so you can use zsh!
+
 ## Navegador
 
 ### **Uso:** [Google Chrome](https://www.google.com/chrome/)
@@ -43,6 +45,8 @@ Cambios en Windows 10:
 - [Un verso al día](https://versos.angelmm.rocks/).
 
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc).
+
+- Chrome extensions for quick site redesigns: https://meowni.ca/posts/extensions/.
 
 ## Editor Texto
 
