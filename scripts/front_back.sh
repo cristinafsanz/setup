@@ -1,5 +1,5 @@
 #!/bin/bash
-# File: ~/front_back.sh
+# Open tabs to start the project
 
 function new_tab() {
   TAB_NAME=$1

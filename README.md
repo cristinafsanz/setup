@@ -42,18 +42,26 @@ Cambios en Windows 10:
 
 ### Extensiones
 
-- [Un verso al día](https://versos.angelmm.rocks/).
-
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc).
 
+- [Octolinker](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp).
+
+- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es).
+
 - Chrome extensions for quick site redesigns: https://meowni.ca/posts/extensions/.
+
+- [Un verso al día](https://versos.angelmm.rocks/).
 
 ## Editor Texto
 
 ### **Uso:** [Visual Studio Code](http://code.visualstudio.com/)
 **Previamente usé:** [Atom](https://atom.io/) y [Brackets](http://brackets.io/).
 
-- Tiene terminal integrada.
+- [Atajos de teclado Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
+
+- [Atajos de teclado Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
+
+- [Atajos de teclado Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
 
 ### Extensiones
 
@@ -61,39 +69,53 @@ Cambios en Windows 10:
 
 - [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4):
 
-  - Panda Theme
-
-  - Babel ES6/ES7
-
   - Editor Config for VS Code: regla de sintaxis en los proyectos. Útil también para un equipo y teniendo este plugin.
 
   - ESLint
 
   - File-icons para tener iconos para distintos tipos de ficheros.
 
-  - Mithril Emmet
-
-  - npm: instalar desde línea de comandos de VS Code.
-
-  - npm Intellisense
-
   - Vetur si se trabaja con Vue. Con snippets de código y resaltados.
 
-  - TODO Highlight
-
-  - Prettier: para autoindentar
+  - Prettier: para autoindentar.
 
   - BEM Expand: te completa el hijo al poner &.
 
+    - Babel ES6/ES7.
+
 ## Terminal
 
-Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora quiero usar iTerm2 (actualizaré el repositorio con los avances).
+Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora quiero usar iTerm2.
+
+- Configuración de Joan León: https://github.com/nucliweb/my-terminal.
+
+  - iTerm2
+
+  - Bash-it
 
 ## Automatización
 
 ¿Qué cosas repetitivas puedo automatizar?
 
+- Funciones útiles Jorge Aznar: https://github.com/jorgeatgu/setup/blob/master/dotfiles/func/functions.zsh.
+
 - Arrancar front y back de un proyecto: [Script abrir varias ventanas Terminal mac](scripts/front_back.sh).
+
+  - Abre distintas pestañas para ejecutar los scripts que arrancan el proyecto. 
+  
+  - Para probarlo te creas fichero en local, lo adaptas a tu proyecto, lo haces ejecutable con chmod +x y lo ejecutas con ./front_back.sh.
+
+- [zsh para Windows 10](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/), [oh my zsh](https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/): Personaliza el prompt del terminal, por ejemplo te dice en qué rama de git estás.
+
+  - Instalar: apt-get install zsh
+
+  - Instalar: apt-get install git
+
+  - Ejecutar: sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+  - Lanzar: zsh
+
+  - Para salir: exit
 
 ## Herramientas organización
 
