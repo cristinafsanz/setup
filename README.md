@@ -63,6 +63,21 @@ Cambios en Windows 10:
 
 - [Atajos de teclado Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
 
+- Ejecutar ESLint al guardar un fichero en VS Code: https://medium.com/@netczuk/even-faster-code-formatting-using-eslint-22b80d061461.
+
+  - Instalar extensión ESLint
+  
+  - Habilitar autofix con [fix para Vue](https://www.paddingleft.com/2017/06/13/vscode-fix-eslint-autofix-in-vue/):
+  
+    ~~~~
+    {
+      "eslint.autoFixOnSave": true,
+      "eslint.validate": [
+        { "language": "vue", "autoFix": true }
+      ]
+    }
+    ~~~~
+
 ### Extensiones
 
 - [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview).
