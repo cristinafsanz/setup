@@ -69,14 +69,14 @@ Cambios en Windows 10:
   
   - Habilitar autofix con [fix para Vue](https://www.paddingleft.com/2017/06/13/vscode-fix-eslint-autofix-in-vue/):
   
-    ~~~~
+    ```
     {
       "eslint.autoFixOnSave": true,
       "eslint.validate": [
         { "language": "vue", "autoFix": true }
       ]
     }
-    ~~~~
+    ```
 
 ### Extensiones
 
