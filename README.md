@@ -59,6 +59,16 @@ Cambios en Windows 10:
 
 - [Atajos de teclado Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
 
+  - `Cmd + P`: Abrir fichero.
+  
+  - `Cmd + F`: Buscar.
+
+  - `Alt (Opción) + Cmd + F`: Reemplazar.
+
+  - `Mayúsculas + Cmd + F`: Buscar en todos los archivos.
+  
+  - `Mayúsculas + Cmd + H`: Reemplazar en todos los archivos.
+
 - [Atajos de teclado Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
 - [Atajos de teclado Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
