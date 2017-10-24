@@ -115,19 +115,7 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
   - iTerm2
 
   - Bash-it
-
-## Automatización
-
-¿Qué cosas repetitivas puedo automatizar?
-
-- Funciones útiles Jorge Aznar: https://github.com/jorgeatgu/setup/blob/master/dotfiles/func/functions.zsh.
-
-- Arrancar front y back de un proyecto: [Script abrir varias ventanas Terminal mac](scripts/front_back.sh).
-
-  - Abre distintas pestañas para ejecutar los scripts que arrancan el proyecto. 
   
-  - Para probarlo te creas fichero en local, lo adaptas a tu proyecto, lo haces ejecutable con chmod +x y lo ejecutas con ./front_back.sh.
-
 - [zsh para Windows 10](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/), [oh my zsh](https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/): Personaliza el prompt del terminal, por ejemplo te dice en qué rama de git estás.
 
   - Instalar: apt-get install zsh
@@ -153,6 +141,18 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
     - chsh -s /usr/local/bin/zsh
     
   - Volver a entrar en iTerm2 y cuando estás en un repositorio git te dice en qué rama estás por ejemplo git:(fix/max-digits-number-76).
+
+## Automatización
+
+¿Qué cosas repetitivas puedo automatizar?
+
+- Funciones útiles Jorge Aznar: https://github.com/jorgeatgu/setup/blob/master/dotfiles/func/functions.zsh.
+
+- Arrancar front y back de un proyecto: [Script abrir varias ventanas Terminal mac](scripts/front_back.sh).
+
+  - Abre distintas pestañas para ejecutar los scripts que arrancan el proyecto. 
+  
+  - Para probarlo te creas fichero en local, lo adaptas a tu proyecto, lo haces ejecutable con chmod +x y lo ejecutas con ./front_back.sh.
 
 ## Herramientas organización
 
