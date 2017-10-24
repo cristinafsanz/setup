@@ -139,6 +139,20 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
   - Lanzar: zsh
 
   - Para salir: exit
+  
+- [zsh para Mac](http://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
+
+  - Zsh:
+
+    - brew install zsh zsh-completions
+  
+  - Oh My Zsh:
+  
+    - curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+    
+    - chsh -s /usr/local/bin/zsh
+    
+  - Volver a entrar en iTerm2 y cuando estás en un repositorio git te dice en qué rama estás por ejemplo git:(fix/max-digits-number-76).
 
 ## Herramientas organización
 
