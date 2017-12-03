@@ -16,6 +16,8 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Automatización](#automatización)
 
+- [Virtual Box](#virtual-box)
+
 - [Herramientas organización](#herramientas-organización)
 
 - [Edición imágenes](#edición-imágenes)
@@ -155,6 +157,39 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
   - Abre distintas pestañas para ejecutar los scripts que arrancan el proyecto. 
   
   - Para probarlo te creas fichero en local, lo adaptas a tu proyecto, lo haces ejecutable con chmod +x y lo ejecutas con ./front_back.sh.
+  
+## Virtual box
+
+Para probar IE en un mac (ejemplo generando versión producción y con http-server para probar en local)
+
+- Bajar VirtualBox: https://www.virtualbox.org/wiki/Downloads: VirtualBox 5.1.30 platform packages: OS X hosts
+
+- Seguir pasos https://github.com/magnetikonline/linuxmicrosoftievirtualmachines#ie11---windows-7
+
+    mkdir -p ~/vm/ie11-windows7 && cd ~/vm/ie11-windows7
+    
+    wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows7.txt
+    
+    cat IE11.Win7.For.Linux.VirtualBox.zip.00? >IE11.Win7.For.Linux.VirtualBox.zip
+    
+    rm ie11-windows7.txt IE11.Win7.For.Linux.VirtualBox.zip.00?
+    
+    unzip IE11.Win7.For.Linux.VirtualBox.zip
+    
+    rm IE11.Win7.For.Linux.VirtualBox.zip
+
+- En Virtual Box: Importar servicio virtualizado (desde ~/vm/ie11-windows7)
+
+- Instalar http-server: https://www.npmjs.com/package/http-server (la primera vez)
+    npm install http-server -g
+
+- Generar versión salida
+    - npm run build
+
+- Ejecutar http-server (en dist está la versión de distribución en este caso): 
+    http-server dist
+
+- Disponible en virtual box en http://ip-local:8080 (la ip local con ifconfig, te la especifica en la terminal el http-server)
 
 ## Herramientas organización
 
