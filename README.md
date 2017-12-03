@@ -104,7 +104,9 @@ Cambios en Windows 10:
 
   - BEM Expand: te completa el hijo al poner &.
 
-    - Babel ES6/ES7.
+  - Babel ES6/ES7.
+  
+- [Plugins VS Code Sarah Drasner](https://github.com/sdras/vue-vscode-extensionpack)
 
 ## Terminal
 
