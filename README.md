@@ -28,6 +28,8 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 ### **Uso (trabajo):** [macOS (Apple)](https://es.wikipedia.org/wiki/OS_X_El_Capitan). **Uso (personal):**  [Windows 10](https://es.wikipedia.org/wiki/Windows_10)
 
+- Bloquear ordenador: Ctrl + Command + Q
+
 Cambios en Windows 10: 
 
 - Eliminar todos los programas preinstalados de Windows 10 con [Remove-AppxPackage](http://www.askvg.com/guide-how-to-remove-all-built-in-apps-in-windows-10/).
