@@ -28,7 +28,7 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 ### **Uso (trabajo):** [macOS (Apple)](https://es.wikipedia.org/wiki/OS_X_El_Capitan). **Uso (personal):**  [Windows 10](https://es.wikipedia.org/wiki/Windows_10)
 
-- Bloquear ordenador: Ctrl + Command + Q
+- Bloquear ordenador Mac: Ctrl + Command + Q
 
 Cambios en Windows 10: 
 
