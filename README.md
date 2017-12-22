@@ -122,6 +122,10 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
 
   - Bash-it
   
+- [Working effectively with iTerm2](http://teohm.com/blog/working-effectively-with-iterm2/)
+
+    - Profiles - Open Profiles - Edit Default Profile - Working Directory - "Reuse previous session’s directory".
+  
 - [zsh para Windows 10](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/), [oh my zsh](https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/): Personaliza el prompt del terminal, por ejemplo te dice en qué rama de git estás.
 
   - Instalar: apt-get install zsh
