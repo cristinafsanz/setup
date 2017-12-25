@@ -22,6 +22,8 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Edición imágenes](#edición-imágenes)
 
+- [Screenshots](#screenshots)
+
 - [Enlaces interesantes](#enlaces-interesantes)
 
 ## Sistema Operativo
@@ -212,6 +214,10 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 - [Gimp for developers](http://cristinafsanz.github.io/projects/gimp-for-developers/).
 
 - [Make a logo with Inkscape](http://cristinafsanz.github.io/projects/logo-inkscape/).
+
+## Screenshots
+
+- [Carbon](https://carbon.now.sh/).
 
 ## Enlaces interesantes
 
