@@ -24,6 +24,8 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Screenshots](#screenshots)
 
+- [Videoconferencia](#videoconferencia)
+
 - [Enlaces interesantes](#enlaces-interesantes)
 
 ## Sistema Operativo
@@ -218,6 +220,10 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 ## Screenshots
 
 - [Carbon](https://carbon.now.sh/).
+
+## Videoconferencia
+
+- [Meet Google](https://meet.google.com/).
 
 ## Enlaces interesantes
 
