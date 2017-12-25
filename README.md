@@ -26,6 +26,8 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Videoconferencia](#videoconferencia)
 
+- [Firma](#firma)
+
 - [Enlaces interesantes](#enlaces-interesantes)
 
 ## Sistema Operativo
@@ -224,6 +226,10 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 ## Videoconferencia
 
 - [Meet Google](https://meet.google.com/).
+
+## Firma
+
+- Aplicación móvil firmar PDFs: docusign.
 
 ## Enlaces interesantes
 
