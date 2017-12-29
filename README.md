@@ -100,6 +100,8 @@ Cambios en Windows 10:
 
 - [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview).
 
+- [Bracket pair colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer).
+
 - [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4):
 
   - Editor Config for VS Code: regla de sintaxis en los proyectos. Útil también para un equipo y teniendo este plugin.
