@@ -24,6 +24,8 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Screenshots](#screenshots)
 
+- [Gifs](#gifs)
+
 - [Videoconferencia](#videoconferencia)
 
 - [Firma](#firma)
@@ -101,6 +103,8 @@ Cambios en Windows 10:
 - [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview).
 
 - [Bracket pair colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer).
+
+- [eCSStractor](https://marketplace.visualstudio.com/items?itemName=kubosho.ecsstractor), descubierto gracias a Diana Aceves.
 
 - [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4):
 
@@ -224,6 +228,10 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 ## Screenshots
 
 - [Carbon](https://carbon.now.sh/).
+
+## Gifs
+
+- [GiphyCapture](https://giphy.com/apps/giphycapture).
 
 ## Videoconferencia
 
