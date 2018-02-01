@@ -69,6 +69,8 @@ Cambios en Windows 10:
 ### **Uso:** [Visual Studio Code](http://code.visualstudio.com/)
 **Previamente usé:** [Atom](https://atom.io/) y [Brackets](http://brackets.io/).
 
+- [Abrir editor desde consola](https://code.visualstudio.com/docs/setup/mac).
+
 - [Atajos de teclado Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
 
   - `Cmd + P`: Abrir fichero.
