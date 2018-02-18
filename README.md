@@ -14,6 +14,8 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Terminal](#terminal)
 
+- [Git](#git)
+
 - [Automatización](#automatización)
 
 - [Virtual Box](#virtual-box)
@@ -165,6 +167,70 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
     - chsh -s /usr/local/bin/zsh
     
   - Volver a entrar en iTerm2 y cuando estás en un repositorio git te dice en qué rama estás por ejemplo git:(fix/max-digits-number-76).
+
+## Git
+
+Algunos comandos menos simples usados en proyectos:
+
+### Rebase de master a tu rama
+
+```
+# asegurarte que estás en tu rama
+
+git branch
+
+git rebase origin/master
+
+# resolver conflictos
+
+git add .
+
+git rebase —continue
+
+git push origin "feature-branch" -f
+```
+
+### Squash
+
+http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html
+
+Ejemplo: Combinar los últimos 4 commits tuyos en el primer commit de la lista:
+```
+git rebase -i HEAD~4
+
+# Ejemplo (:wq al final para guardar como en vi)
+pick 01d1124 Adding license
+squash 6340aaa Moving license into its own file
+squash ebfd367 Jekyll has become self-aware.
+squash 30e0ccb Changed the tagline in the binary, too.
+
+git add <file1> <file2>  # si conflictos
+
+git rebase —continue # si conflictos
+
+git push origin <branchname> -f
+```
+
+### Dejar tu rama como en remoto
+
+```
+git reset —hard origin/rama 
+```
+
+### Git amend
+
+Ejemplo: quieres añadir algo al último commit
+
+```
+# Haces los cambios
+
+git add <file1> <file2>
+
+git commit --amend
+
+git push origin <branchname> -f
+
+```
 
 ## Automatización
 
