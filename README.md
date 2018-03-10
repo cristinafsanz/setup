@@ -108,6 +108,8 @@ Cambios en Windows 10:
 
 - [Bracket pair colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer).
 
+- [Indented block highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting).
+
 - [eCSStractor](https://marketplace.visualstudio.com/items?itemName=kubosho.ecsstractor), descubierto gracias a Diana Aceves.
 
 - [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4):
