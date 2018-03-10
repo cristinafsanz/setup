@@ -279,6 +279,8 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 
 - Disponible en virtual box en http://ip-local:8080 (la ip local con ifconfig, te la especifica en la terminal el http-server)
 
+- [Copiar y pegar url en Virtual Box, en Windows con Ctrl+V](https://www.liberiangeek.net/2013/09/copy-paste-virtualbox-host-guest-machines/)
+
 ## Herramientas organización
 
 ### **Uso:** [Evernote](https://evernote.com/intl/es/), [Taiga Kanban](https://taiga.io/)
