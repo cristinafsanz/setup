@@ -54,6 +54,8 @@ Cambios en Windows 10:
 
 ### **Uso:** [Google Chrome](https://www.google.com/chrome/)
 
+- Tip: Run copy(obj) in the Console to copy an object to your clipboard
+
 ### Extensiones
 
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc).
@@ -63,8 +65,6 @@ Cambios en Windows 10:
 - [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es).
 
 - Chrome extensions for quick site redesigns: https://meowni.ca/posts/extensions/.
-
-- [Un verso al día](https://versos.angelmm.rocks/).
 
 ## Editor Texto
 
