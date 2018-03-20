@@ -56,6 +56,8 @@ Cambios en Windows 10:
 
 - Tip: Run copy(obj) in the Console to copy an object to your clipboard
 
+- Tip: Type $_ in the Console to return the value of the last evaluated expression.
+
 ### Extensiones
 
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc).
