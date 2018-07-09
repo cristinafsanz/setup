@@ -75,6 +75,8 @@ Cambios en Windows 10:
 
 - [Abrir editor desde consola](https://code.visualstudio.com/docs/setup/mac).
 
+- Mantener varios ficheros abiertos en pestañas: Preferencias -> Configuración: `"workbench.editor.showTabs": true`
+
 - [Atajos de teclado Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
 
   - `Cmd + P`: Abrir fichero.
