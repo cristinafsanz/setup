@@ -114,6 +114,10 @@ Cambios en Windows 10:
 
 - [Indented block highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting).
 
+- [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc): Generate TOC (table of contents) of headlines from parsed markdown file.
+
+- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync): Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+
 - [eCSStractor](https://marketplace.visualstudio.com/items?itemName=kubosho.ecsstractor), descubierto gracias a Diana Aceves.
 
 - [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4):
