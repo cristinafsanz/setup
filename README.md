@@ -54,9 +54,17 @@ Cambios en Windows 10:
 
 ### **Uso:** [Google Chrome](https://www.google.com/chrome/)
 
+- Wrap your console.log arguments in an object literal to print the variable name along with its value: `console.log({ isLoggedIn })`.
+
+- Tip: Run keys(object) and values(object) in the Console to see an object's keys and values.
+
 - Tip: Run copy(obj) in the Console to copy an object to your clipboard
 
 - Tip: Type $_ in the Console to return the value of the last evaluated expression.
+
+- Option + Cmd + J: Open Console JS.
+
+- Local storage: https://developers.google.com/web/tools/chrome-devtools/manage-data/local-storage.
 
 ### Extensiones
 
@@ -65,6 +73,8 @@ Cambios en Windows 10:
 - [Octolinker](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp).
 
 - [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es).
+
+- [CORS extension Chrome](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc?hl=en).
 
 - Chrome extensions for quick site redesigns: https://meowni.ca/posts/extensions/.
 
@@ -180,22 +190,50 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
 
 ## Git
 
-Algunos comandos menos simples usados en proyectos:
+Algunos comandos usados en proyectos:
+
+### Añadir al índice todos los ficheros
+
+```
+git status
+
+# Comprobar en VS Code las diferencias de los ficheros para asegurar que lo que subes es lo que quieres subir
+
+git add .
+```
+
+### Deshacer un git add de un fichero
+
+```
+git reset HEAD -- <file>
+```
+
+### Subir a la misma rama en remoto
+
+```
+git push origin HEAD
+```
 
 ### Rebase de master a tu rama
 
 ```
-# asegurarte que estás en tu rama
+# Asegurarte que estás en tu rama 
 
-git branch
+git status
+
+# Sincronizarte con el remoto
+
+git fetch
 
 git rebase origin/master
 
-# resolver conflictos
+# resolver conflictos si los hubiera
 
 git add .
 
 git rebase —continue
+
+# subir la rama rebasada a remoto con -f
 
 git push origin "feature-branch" -f
 ```
@@ -221,12 +259,6 @@ git rebase —continue # si conflictos
 git push origin <branchname> -f
 ```
 
-### Dejar tu rama como en remoto
-
-```
-git reset —hard origin/rama 
-```
-
 ### Git amend
 
 Ejemplo: quieres añadir algo al último commit
@@ -240,6 +272,78 @@ git commit --amend
 
 git push origin <branchname> -f
 
+```
+
+### Dejar tu rama como en remoto
+
+```
+git reset —hard origin/rama 
+```
+
+ó
+
+```
+git checkout -B master origin/master
+```
+
+### Borrar rama remota y local
+
+```
+git push -d origin feat/feature-branch
+git branch -D feat/feature-branch
+```
+
+### Borrar todas las ramas locales excepto master
+
+```
+git branch | grep -v "master" | xargs git branch -D
+```
+
+### Cambiar rama local y remota
+
+https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/
+
+```
+git branch -m feat/MHF-725-params
+git push origin :feat/MHF-841-params feat/MHF-725-params
+git push origin -u  feat/MHF-725-params
+```
+
+### Guardar cambios en stash y recuperarlos
+
+```
+# Guardar
+git stash
+
+# Recuperar borrando el stash
+git stash pop
+
+# Recuperar manteniendo el stash
+git stash apply
+```
+
+### Buscar git commit por mensaje
+
+```
+git log --all --grep='Build 0051'
+```
+
+### Borrar tags
+
+```
+# Remote:
+git push --delete origin tagname
+
+# Local:
+git tag --delete tagname
+```
+
+### Crear tags
+
+```
+git tag -a 3.26.0 -m "Version 3.26.0”
+ 
+git push origin 3.26.0
 ```
 
 ## Automatización
@@ -318,6 +422,8 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 - [Meet Google](https://meet.google.com/).
 
 ## Firma
+
+- Editar y firmar documentos PDF con Acrobe Acrobar Reader DC.
 
 - Aplicación móvil firmar PDFs: docusign.
 
