@@ -6,7 +6,7 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 ## Contenidos
 
-- [Sistema Operativo](#sistema-operativo)
+- [Git](#git)
 
 - [Navegador](#navegador)
 
@@ -14,7 +14,7 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Terminal](#terminal)
 
-- [Git](#git)
+- [Sistema Operativo](#sistema-operativo)
 
 - [Automatización](#automatización)
 
@@ -34,167 +34,33 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Enlaces interesantes](#enlaces-interesantes)
 
-## Sistema Operativo
-
-### **Uso (trabajo):** [macOS (Apple)](https://es.wikipedia.org/wiki/OS_X_El_Capitan). **Uso (personal):**  [Windows 10](https://es.wikipedia.org/wiki/Windows_10)
-
-- Bloquear ordenador Mac: Ctrl + Command + Q
-
-Cambios en Windows 10: 
-
-- Eliminar todos los programas preinstalados de Windows 10 con [Remove-AppxPackage](http://www.askvg.com/guide-how-to-remove-all-built-in-apps-in-windows-10/).
-
-- Deshabilitar que las aplicaciones nuevas instaladas [se ejecuten al inicio](https://www.howtogeek.com/108742/how-to-use-the-new-task-manager-in-windows-8/).
-
-- Instalar [Linux Bash Shell](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) en Windows 10. Creados los proyectos en /mnt/c/Projects (C:/Projects).
-
-  - Nota [@ethomson](https://twitter.com/ethomson/status/910167854321987586/photo/1): Pro-tip: you don't have to use bash in Windows Subsystem for Linux.  If you run `wsl`, it will use your login shell, so you can use zsh!
-
-## Navegador
-
-### **Uso:** [Google Chrome](https://www.google.com/chrome/)
-
-- Wrap your console.log arguments in an object literal to print the variable name along with its value: `console.log({ isLoggedIn })`.
-
-- Tip: Run keys(object) and values(object) in the Console to see an object's keys and values.
-
-- Tip: Run copy(obj) in the Console to copy an object to your clipboard
-
-- Tip: Type $_ in the Console to return the value of the last evaluated expression.
-
-- Option + Cmd + J: Open Console JS.
-
-- Local storage: https://developers.google.com/web/tools/chrome-devtools/manage-data/local-storage.
-
-### Extensiones
-
-- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc).
-
-- [Octolinker](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp).
-
-- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es).
-
-- [CORS extension Chrome](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc?hl=en).
-
-- Chrome extensions for quick site redesigns: https://meowni.ca/posts/extensions/.
-
-## Editor Texto
-
-### **Uso:** [Visual Studio Code](http://code.visualstudio.com/)
-**Previamente usé:** [Atom](https://atom.io/) y [Brackets](http://brackets.io/).
-
-- [Abrir editor desde consola](https://code.visualstudio.com/docs/setup/mac).
-
-- Mantener varios ficheros abiertos en pestañas: Preferencias -> Configuración: `"workbench.editor.showTabs": true`
-
-- [Atajos de teclado Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
-
-  - `Cmd + P`: Abrir fichero.
-  
-  - `Cmd + F`: Buscar.
-
-  - `Alt (Opción) + Cmd + F`: Reemplazar.
-
-  - `Mayúsculas + Cmd + F`: Buscar en todos los archivos.
-  
-  - `Mayúsculas + Cmd + H`: Reemplazar en todos los archivos.
-
-- [Atajos de teclado Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
-
-- [Atajos de teclado Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
-
-- Ejecutar ESLint al guardar un fichero en VS Code: https://medium.com/@netczuk/even-faster-code-formatting-using-eslint-22b80d061461.
-
-  - Instalar extensión ESLint
-  
-  - Habilitar autofix con [fix para Vue](https://www.paddingleft.com/2017/06/13/vscode-fix-eslint-autofix-in-vue/):
-  
-    {
-      "eslint.autoFixOnSave": true,
-      "eslint.validate": [
-        { "language": "vue", "autoFix": true }
-      ]
-    }
-
-### Extensiones
-
-- [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview).
-
-- [Bracket pair colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer).
-
-- [Indented block highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting).
-
-- [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc): Generate TOC (table of contents) of headlines from parsed markdown file.
-
-- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync): Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
-
-- [eCSStractor](https://marketplace.visualstudio.com/items?itemName=kubosho.ecsstractor), descubierto gracias a Diana Aceves.
-
-- [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4):
-
-  - Editor Config for VS Code: regla de sintaxis en los proyectos. Útil también para un equipo y teniendo este plugin.
-
-  - ESLint
-
-  - File-icons para tener iconos para distintos tipos de ficheros.
-
-  - Vetur si se trabaja con Vue. Con snippets de código y resaltados.
-
-  - Prettier: para autoindentar.
-
-  - BEM Expand: te completa el hijo al poner &.
-
-  - Babel ES6/ES7.
-  
-- [Plugins VS Code Sarah Drasner](https://github.com/sdras/vue-vscode-extensionpack)
-
-## Terminal
-
-Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora quiero usar iTerm2.
-
-- Configuración de Joan León: https://github.com/nucliweb/my-terminal.
-
-  - iTerm2
-
-  - Bash-it
-  
-- [Working effectively with iTerm2](http://teohm.com/blog/working-effectively-with-iterm2/)
-
-    - Profiles - Open Profiles - Edit Default Profile - Working Directory - "Reuse previous session’s directory".
-  
-- [zsh para Windows 10](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/), [oh my zsh](https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/): Personaliza el prompt del terminal, por ejemplo te dice en qué rama de git estás.
-
-  - Instalar: apt-get install zsh
-
-  - Instalar: apt-get install git
-
-  - Ejecutar: sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-  - Lanzar: zsh
-
-  - Para salir: exit
-  
-- [zsh para Mac](http://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
-
-  - Zsh:
-
-    - brew install zsh zsh-completions
-  
-  - Oh My Zsh:
-  
-    - curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-    
-    - chsh -s /usr/local/bin/zsh
-    
-  - Volver a entrar en iTerm2 y cuando estás en un repositorio git te dice en qué rama estás por ejemplo git:(fix/max-digits-number-76).
-
 ## Git
 
 Algunos comandos usados en proyectos:
 
-### Añadir al índice todos los ficheros
+```
+Operaciones locales:
+working directory -> staging area -> git repository
+```
+
+### Crear rama en local
 
 ```
+# Situarte en la rama desde donde quieres crear la rama
+git checkout develop
+
+# Comprobar que se tienen los últimos cambios
+git fetch
+git pull
+
+# Crear la rama
+git checkout -b feat/new-feature
+```
+
+### Añadir al `staging area` todos los ficheros
+
+```
+# Ver el estado actual de los cambios (qué está en el índice para subir)
 git status
 
 # Comprobar en VS Code las diferencias de los ficheros para asegurar que lo que subes es lo que quieres subir
@@ -202,10 +68,21 @@ git status
 git add .
 ```
 
-### Deshacer un git add de un fichero
+### Quitar un fichero del `staging area`
 
 ```
 git reset HEAD -- <file>
+```
+
+### Deshacer cambios de los ficheros que están en el `working directory` (todavía no subidos al `staging area`)
+
+```
+git checkout .
+```
+
+### Commit para subir ficheros del `staging area` al `git directory`
+```
+git commit -m "Commit message"
 ```
 
 ### Subir a la misma rama en remoto
@@ -346,6 +223,160 @@ git tag -a 3.26.0 -m "Version 3.26.0”
 git push origin 3.26.0
 ```
 
+## Navegador
+
+### **Uso:** [Google Chrome](https://www.google.com/chrome/)
+
+- Wrap your console.log arguments in an object literal to print the variable name along with its value: `console.log({ isLoggedIn })`.
+
+- Tip: Run keys(object) and values(object) in the Console to see an object's keys and values.
+
+- Tip: Run copy(obj) in the Console to copy an object to your clipboard
+
+- Tip: Type $_ in the Console to return the value of the last evaluated expression.
+
+- Option + Cmd + J: Open Console JS.
+
+- Local storage: https://developers.google.com/web/tools/chrome-devtools/manage-data/local-storage.
+
+### Extensiones
+
+- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc).
+
+- [Octolinker](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp).
+
+- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es).
+
+- [CORS extension Chrome](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc?hl=en).
+
+- Chrome extensions for quick site redesigns: https://meowni.ca/posts/extensions/.
+
+## Editor Texto
+
+### **Uso:** [Visual Studio Code](http://code.visualstudio.com/)
+**Previamente usé:** [Atom](https://atom.io/) y [Brackets](http://brackets.io/).
+
+- [Abrir editor desde consola](https://code.visualstudio.com/docs/setup/mac).
+
+- Mantener varios ficheros abiertos en pestañas: Preferencias -> Configuración: `"workbench.editor.showTabs": true`
+
+- [Atajos de teclado Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
+
+  - `Cmd + P`: Abrir fichero.
+  
+  - `Cmd + F`: Buscar.
+
+  - `Alt (Opción) + Cmd + F`: Reemplazar.
+
+  - `Mayúsculas + Cmd + F`: Buscar en todos los archivos.
+  
+  - `Mayúsculas + Cmd + H`: Reemplazar en todos los archivos.
+
+- [Atajos de teclado Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
+
+- [Atajos de teclado Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
+
+- Ejecutar ESLint al guardar un fichero en VS Code: https://medium.com/@netczuk/even-faster-code-formatting-using-eslint-22b80d061461.
+
+  - Instalar extensión ESLint
+  
+  - Habilitar autofix con [fix para Vue](https://www.paddingleft.com/2017/06/13/vscode-fix-eslint-autofix-in-vue/):
+  
+    {
+      "eslint.autoFixOnSave": true,
+      "eslint.validate": [
+        { "language": "vue", "autoFix": true }
+      ]
+    }
+
+### Extensiones
+
+- [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview).
+
+- [Bracket pair colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer).
+
+- [Indented block highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting).
+
+- [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc): Generate TOC (table of contents) of headlines from parsed markdown file.
+
+- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync): Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+
+- [eCSStractor](https://marketplace.visualstudio.com/items?itemName=kubosho.ecsstractor), descubierto gracias a Diana Aceves.
+
+- [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4):
+
+  - Editor Config for VS Code: regla de sintaxis en los proyectos. Útil también para un equipo y teniendo este plugin.
+
+  - ESLint
+
+  - File-icons para tener iconos para distintos tipos de ficheros.
+
+  - Vetur si se trabaja con Vue. Con snippets de código y resaltados.
+
+  - Prettier: para autoindentar.
+
+  - BEM Expand: te completa el hijo al poner &.
+
+  - Babel ES6/ES7.
+  
+- [Plugins VS Code Sarah Drasner](https://github.com/sdras/vue-vscode-extensionpack)
+
+## Terminal
+
+Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora quiero usar iTerm2.
+
+- Configuración de Joan León: https://github.com/nucliweb/my-terminal.
+
+  - iTerm2
+
+  - Bash-it
+  
+- [Working effectively with iTerm2](http://teohm.com/blog/working-effectively-with-iterm2/)
+
+    - Profiles - Open Profiles - Edit Default Profile - Working Directory - "Reuse previous session’s directory".
+  
+- [zsh para Windows 10](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/), [oh my zsh](https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/): Personaliza el prompt del terminal, por ejemplo te dice en qué rama de git estás.
+
+  - Instalar: apt-get install zsh
+
+  - Instalar: apt-get install git
+
+  - Ejecutar: sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+  - Lanzar: zsh
+
+  - Para salir: exit
+  
+- [zsh para Mac](http://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
+
+  - Zsh:
+
+    - brew install zsh zsh-completions
+  
+  - Oh My Zsh:
+  
+    - curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+    
+    - chsh -s /usr/local/bin/zsh
+    
+  - Volver a entrar en iTerm2 y cuando estás en un repositorio git te dice en qué rama estás por ejemplo git:(fix/max-digits-number-76).
+
+## Sistema Operativo
+
+### **Uso (trabajo):** [macOS (Apple)](https://es.wikipedia.org/wiki/OS_X_El_Capitan). **Uso (personal):**  [Windows 10](https://es.wikipedia.org/wiki/Windows_10)
+
+- Bloquear ordenador Mac: Ctrl + Command + Q
+
+Cambios en Windows 10: 
+
+- Eliminar todos los programas preinstalados de Windows 10 con [Remove-AppxPackage](http://www.askvg.com/guide-how-to-remove-all-built-in-apps-in-windows-10/).
+
+- Deshabilitar que las aplicaciones nuevas instaladas [se ejecuten al inicio](https://www.howtogeek.com/108742/how-to-use-the-new-task-manager-in-windows-8/).
+
+- Instalar [Linux Bash Shell](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) en Windows 10. Creados los proyectos en /mnt/c/Projects (C:/Projects).
+
+  - Nota [@ethomson](https://twitter.com/ethomson/status/910167854321987586/photo/1): Pro-tip: you don't have to use bash in Windows Subsystem for Linux.  If you run `wsl`, it will use your login shell, so you can use zsh!
+  
 ## Automatización
 
 ¿Qué cosas repetitivas puedo automatizar?
