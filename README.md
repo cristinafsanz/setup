@@ -301,7 +301,7 @@ git push origin 3.26.0
 
 - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync): Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
 
-- [eCSStractor](https://marketplace.visualstudio.com/items?itemName=kubosho.ecsstractor), descubierto gracias a Diana Aceves.
+- [eCSStractor](https://marketplace.visualstudio.com/items?itemName=diz.ecsstractor-port), descubierto gracias a Diana Aceves.
 
 - [Plugins VS Code Carlos Azaustre](https://youtu.be/CeAvbVpBWR4):
 
