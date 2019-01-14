@@ -263,14 +263,24 @@ git push origin 3.26.0
 - [Atajos de teclado Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
 
   - `Cmd + P`: Abrir fichero.
+
+  - `Control + r`: Cambiar de proyecto (workspace).
+
+  - `Cmd + d`: Seleccionar la palabra y al dar a `Cmd + d` va al siguiente. Así puedes reemplazar un grupo de palabras a la vez.
+
+  - `Cmd + b`: Abrir/cerrar menú de la izquierda. 
+
+  - `Control + g`: Ir a la línea. 
   
   - `Cmd + F`: Buscar.
 
-  - `Alt (Opción) + Cmd + F`: Reemplazar.
+  - `Option + Cmd + F`: Reemplazar.
 
-  - `Mayúsculas + Cmd + F`: Buscar en todos los archivos.
+  - `Shift + Cmd + F`: Buscar en todos los archivos.
   
-  - `Mayúsculas + Cmd + H`: Reemplazar en todos los archivos.
+  - `Shift + Cmd + H`: Reemplazar en todos los archivos.
+
+  - `Cmd + Shift + p`: Buscador de comandos (Command palette).
 
 - [Atajos de teclado Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
@@ -291,7 +301,7 @@ git push origin 3.26.0
 
 ### Extensiones
 
-- [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview).
+- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles).
 
 - [Bracket pair colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer).
 
