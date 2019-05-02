@@ -32,11 +32,16 @@ Estructura del README basada en el [setup](https://github.com/taniarascia/setup)
 
 - [Firma](#firma)
 
+- [Traducción](#traducción)
+
 - [Enlaces interesantes](#enlaces-interesantes)
 
 ## Git
 
-Algunos comandos usados en proyectos:
+Nota: [Acordeón para notas de Git](https://gist.github.com/ericclemmons/b146fe5da72ca1f706b2ef72a20ac39d)
+
+<details>
+<summary>Algunos comandos usados en proyectos</summary>
 
 ```
 Operaciones locales:
@@ -94,7 +99,7 @@ git push origin HEAD
 ### Rebase de master a tu rama
 
 ```
-# Asegurarte que estás en tu rama 
+# Asegurarte que estás en tu rama
 
 git status
 
@@ -154,7 +159,7 @@ git push origin <branchname> -f
 ### Dejar tu rama como en remoto
 
 ```
-git reset —hard origin/rama 
+git reset —hard origin/rama
 ```
 
 ó
@@ -219,9 +224,10 @@ git tag --delete tagname
 
 ```
 git tag -a 3.26.0 -m "Version 3.26.0”
- 
+
 git push origin 3.26.0
 ```
+</details>
 
 ## Navegador
 
@@ -229,7 +235,7 @@ git push origin 3.26.0
 
 - Wrap your console.log arguments in an object literal to print the variable name along with its value: `console.log({ isLoggedIn })`.
 
-- Tip: Run keys(object) and values(object) in the Console to see an object's keys and values.
+- Tip: Run `keys(object)` and `values(object)` in the Console to see an object's keys and values.
 
 - Tip: Run copy(obj) in the Console to copy an object to your clipboard
 
@@ -248,6 +254,8 @@ git push origin 3.26.0
 - [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es).
 
 - [CORS extension Chrome](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc?hl=en).
+
+- [30 seconds of knowledge](https://30secondsofknowledge.com/)
 
 - Chrome extensions for quick site redesigns: https://meowni.ca/posts/extensions/.
 
@@ -268,16 +276,16 @@ git push origin 3.26.0
 
   - `Cmd + d`: Seleccionar la palabra y al dar a `Cmd + d` va al siguiente. Así puedes reemplazar un grupo de palabras a la vez.
 
-  - `Cmd + b`: Abrir/cerrar menú de la izquierda. 
+  - `Cmd + b`: Abrir/cerrar menú de la izquierda.
 
-  - `Control + g`: Ir a la línea. 
-  
+  - `Control + g`: Ir a la línea.
+
   - `Cmd + F`: Buscar.
 
   - `Option + Cmd + F`: Reemplazar.
 
   - `Shift + Cmd + F`: Buscar en todos los archivos.
-  
+
   - `Shift + Cmd + H`: Reemplazar en todos los archivos.
 
   - `Cmd + Shift + p`: Buscador de comandos (Command palette).
@@ -289,9 +297,9 @@ git push origin 3.26.0
 - Ejecutar ESLint al guardar un fichero en VS Code: https://medium.com/@netczuk/even-faster-code-formatting-using-eslint-22b80d061461.
 
   - Instalar extensión ESLint
-  
+
   - Habilitar autofix con [fix para Vue](https://www.paddingleft.com/2017/06/13/vscode-fix-eslint-autofix-in-vue/):
-  
+
     {
       "eslint.autoFixOnSave": true,
       "eslint.validate": [
@@ -328,23 +336,31 @@ git push origin 3.26.0
   - BEM Expand: te completa el hijo al poner &.
 
   - Babel ES6/ES7.
-  
+
 - [Plugins VS Code Sarah Drasner](https://github.com/sdras/vue-vscode-extensionpack)
 
 ## Terminal
 
 Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora quiero usar iTerm2.
 
+- Comandos útiles:
+
+  - `touch index.{html,js}`
+
+  - Cambiar título pdf: `exiftool -Title="New title" path/pdf.pdf`
+
+  - ab (test concurrencia)
+
 - Configuración de Joan León: https://github.com/nucliweb/my-terminal.
 
   - iTerm2
 
   - Bash-it
-  
+
 - [Working effectively with iTerm2](http://teohm.com/blog/working-effectively-with-iterm2/)
 
     - Profiles - Open Profiles - Edit Default Profile - Working Directory - "Reuse previous session’s directory".
-  
+
 - [zsh para Windows 10](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/), [oh my zsh](https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/): Personaliza el prompt del terminal, por ejemplo te dice en qué rama de git estás.
 
   - Instalar: apt-get install zsh
@@ -356,19 +372,19 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
   - Lanzar: zsh
 
   - Para salir: exit
-  
+
 - [zsh para Mac](http://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 
   - Zsh:
 
     - brew install zsh zsh-completions
-  
+
   - Oh My Zsh:
-  
+
     - curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-    
+
     - chsh -s /usr/local/bin/zsh
-    
+
   - Volver a entrar en iTerm2 y cuando estás en un repositorio git te dice en qué rama estás por ejemplo git:(fix/max-digits-number-76).
 
 ## Sistema Operativo
@@ -377,7 +393,7 @@ Inicialmente he usado el terminal de Mac con el tema Homebrew. A partir de ahora
 
 - Bloquear ordenador Mac: Ctrl + Command + Q
 
-Cambios en Windows 10: 
+Cambios en Windows 10:
 
 - Eliminar todos los programas preinstalados de Windows 10 con [Remove-AppxPackage](http://www.askvg.com/guide-how-to-remove-all-built-in-apps-in-windows-10/).
 
@@ -386,7 +402,7 @@ Cambios en Windows 10:
 - Instalar [Linux Bash Shell](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) en Windows 10. Creados los proyectos en /mnt/c/Projects (C:/Projects).
 
   - Nota [@ethomson](https://twitter.com/ethomson/status/910167854321987586/photo/1): Pro-tip: you don't have to use bash in Windows Subsystem for Linux.  If you run `wsl`, it will use your login shell, so you can use zsh!
-  
+
 ## Automatización
 
 ¿Qué cosas repetitivas puedo automatizar?
@@ -395,10 +411,10 @@ Cambios en Windows 10:
 
 - Arrancar front y back de un proyecto: [Script abrir varias ventanas Terminal mac](scripts/front_back.sh).
 
-  - Abre distintas pestañas para ejecutar los scripts que arrancan el proyecto. 
-  
+  - Abre distintas pestañas para ejecutar los scripts que arrancan el proyecto.
+
   - Para probarlo te creas fichero en local, lo adaptas a tu proyecto, lo haces ejecutable con chmod +x y lo ejecutas con ./front_back.sh.
-  
+
 ## Virtual box
 
 Para probar IE en un mac (ejemplo generando versión producción y con http-server para probar en local)
@@ -408,15 +424,15 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 - Seguir pasos https://github.com/magnetikonline/linuxmicrosoftievirtualmachines#ie11---windows-7
 
     mkdir -p ~/vm/ie11-windows7 && cd ~/vm/ie11-windows7
-    
+
     wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows7.txt
-    
+
     cat IE11.Win7.For.Linux.VirtualBox.zip.00? >IE11.Win7.For.Linux.VirtualBox.zip
-    
+
     rm ie11-windows7.txt IE11.Win7.For.Linux.VirtualBox.zip.00?
-    
+
     unzip IE11.Win7.For.Linux.VirtualBox.zip
-    
+
     rm IE11.Win7.For.Linux.VirtualBox.zip
 
 - En Virtual Box: Importar servicio virtualizado (desde ~/vm/ie11-windows7)
@@ -427,7 +443,7 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 - Generar versión salida
     - npm run build
 
-- Ejecutar http-server (en dist está la versión de distribución en este caso): 
+- Ejecutar http-server (en dist está la versión de distribución en este caso):
     http-server dist
 
 - Disponible en virtual box en http://ip-local:8080 (la ip local con ifconfig, te la especifica en la terminal el http-server)
@@ -462,42 +478,48 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 
 - [Meet Google](https://meet.google.com/).
 
+- Compartir links online: https://bigtextbox.com/.
+
 ## Firma
 
 - Editar y firmar documentos PDF con Acrobe Acrobar Reader DC.
 
 - Aplicación móvil firmar PDFs: docusign.
 
+## Traducción
+
+- Deepl
+
 ## Enlaces interesantes
 
 * Setup de trabajo:
 
   * [Jorge Aznar](http://jorgeatgu.com/blog/mi-setup-de-trabajo/).
-  
+
   * [Enlaces Bash y Gulp TheAntiEvent17](https://gist.github.com/jorgeatgu/6b1f9bdf8ae9b02ad69d2f7bd039aac9#automatización-con-gulp-y-bash).
-  
-* Dot files: 
-  
+
+* Dot files:
+
   * [Getting started](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789).
-  
+
   * [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles).
-  
+
   * [Jorge Aznar](https://github.com/jorgeatgu/setup).
-  
+
   * [Viroide](https://github.com/Viroide/dotfiles).
 
   * [Angel M Miguel](https://github.com/Angelmmiguel/dotfiles).
 
   * [Joan León](https://github.com/nucliweb/my-terminal).
-  
+
 * Gulp:
 
   * [Jon Torrado](https://medium.com/@jontorrado/working-with-gulp-2-19376bfdd077).
-  
-* Inicio proyectos: 
+
+* Inicio proyectos:
 
   * [Jorge Aznar (artículo)](http://jorgeatgu.com/blog/iniciando-proyectos-con-base/).
-  
+
   * [Jorge Aznar (GitHub)](https://github.com/jorgeatgu/base).
 
   * [Generador Jorge Aznar creado por Viroide](https://github.com/Viroide/generator-jorge-atgu). [Artículo Medium](https://medium.com/@viroide/un-peque%C3%B1o-regalo-para-jorge-aznar-38c558e57e95).
@@ -509,5 +531,5 @@ Para probar IE en un mac (ejemplo generando versión producción y con http-serv
 * Vim Sessions:
 
   * [Julia Evans](https://twitter.com/b0rk/status/906739364985806848).
-  
+
   * [Handle vim sessions](https://github.com/dhruvasagar/vim-prosession).
